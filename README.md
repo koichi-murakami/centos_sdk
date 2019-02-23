@@ -13,7 +13,7 @@
 # ./build_image.sh
 ~~~
 
-## Docker Hub Auto Build
-This repository is linked to docker hub. When a new Dockerfile is pushed, 
+## Docker hub auto build
+This repository is linked to docker hub. When a new `Dockerfile` is pushed, 
 a process building a correspondig docker image is triggered.
 
