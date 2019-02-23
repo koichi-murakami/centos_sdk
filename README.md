@@ -14,6 +14,6 @@
 ~~~
 
 ## Docker Hub Auto Build
-This repository is linked to docker hub. When a new Dockerfile is committed, 
+This repository is linked to docker hub. When a new Dockerfile is pushed, 
 a process building a correspondig docker image is triggered.
 
