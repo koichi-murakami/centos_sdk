@@ -1,8 +1,6 @@
 # K6 SDK
 
-Dockerfile for K6 SDK
-
-Dockerfiles for creating base images for K6 SDK
+`Dockerfile` for creating base images for K6 SDK
 
 ## Images
 
@@ -15,4 +13,7 @@ Dockerfiles for creating base images for K6 SDK
 # ./build_image.sh
 ~~~
 
+## Docker Hub Auto Build
+This repository is linked to docker hub. When a new Dockerfile is committed, 
+a process building a correspondig docker image is triggered.
 
