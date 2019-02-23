@@ -6,7 +6,7 @@ FROM centos:latest
 LABEL maintener="Koichi Murakami <koichi.murakami@kek.jp>"
 
 #
-RUN yum install -y epel-release tcsh zsh make gcc-c++ \
+RUN yum install -y epel-release tcsh zsh sudo make gcc-c++ \
                    boost-devel expat-devel xerces-c-devel
 
 #
