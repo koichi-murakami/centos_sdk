@@ -5,7 +5,7 @@
 
 echo "@@ Build Docker image ..."
 
-target=local/centos7:sdk
+target=koichimurakamik6/centos7:latest
 
 id=`docker image ls -q $target`
 
@@ -18,4 +18,3 @@ fi
 
 echo "@@ build target image ..."
 docker build -f Dockerfile -t $target .
-
