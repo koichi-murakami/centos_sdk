@@ -2,7 +2,6 @@
 # Dockerfile for CentOS instance
 #
 FROM centos:latest
-#FROM local/centos7:sdk
 LABEL maintener="Koichi Murakami <koichi.murakami@kek.jp>"
 
 #
@@ -19,4 +18,3 @@ RUN yum update -y && \
 
 #
 WORKDIR /
-
