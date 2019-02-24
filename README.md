@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
-[`latest` (*Dockerfile*)](https://github.com/koichi-murakami/k6sdk/blob/master/centos7/Dockerfile)
+[`latest` (*Dockerfile*)](https://github.com/koichi-murakami/centos_sdk/blob/master/Dockerfile)
 
 # CentOS7 K6 SDK
 
