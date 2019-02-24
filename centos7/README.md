@@ -1,4 +1,4 @@
-# Supported tags and respective Dockerfile links
+# Supported tags and respective `Dockerfile` links
 
 [`latest` (*centos7/Dockerfile*)](https://github.com/koichi-murakami/k6sdk/blob/master/centos7/Dockerfile)
 
