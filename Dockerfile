@@ -1,7 +1,7 @@
 #
-# Dockerfile for CentOS instance
+# Dockerfile for CentOS 7 instance
 #
-FROM centos:latest
+FROM centos:centos7
 LABEL maintener="Koichi Murakami <koichi.murakami@kek.jp>"
 
 #
