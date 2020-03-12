@@ -1,16 +1,18 @@
-# Supported tags and respective `Dockerfile` links
+# CentOS K6 SDK
 
-[`latest` (*Dockerfile*)](https://github.com/koichi-murakami/centos_sdk/blob/master/Dockerfile)
-
-# CentOS7 K6 SDK
-
-Base image of CentOS7 for K6 SDK.
+Base image of CentOS for K6 SDK.
 
 This images includes additional packages to the centos base image :
 `tcsh`, `zsh`, `make`, `gcc-c++`,
 `boost-devel`, `expat-devel`, `xerces-c-devel`, `git`, `camke3`.
 
 <img src="https://wiki.centos.org/ArtWork/Brand/Logo?action=AttachFile&do=get&target=centos-logo-light.svg" width=40%>
+
+
+# Supported Tags
+
+* `master` : 8
+* `centos7` : 7
 
 # License
 
