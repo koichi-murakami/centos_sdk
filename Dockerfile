@@ -1,20 +1,20 @@
 #
-# Dockerfile for CentOS instance
+# Dockerfile for CentOS 8 instance
 #
-FROM centos:centos
+FROM centos:centos8
 LABEL maintener="Koichi Murakami <koichi.murakami@kek.jp>"
 
 #
-RUN yum install -y epel-release tcsh zsh sudo make gcc-c++ \
-                   boost-devel expat-devel xerces-c-devel
+RUN dnf install -y epel-release tcsh zsh sudo make gcc-c++ \
+                   boost-devel expat-devel
 
 #
-RUN yum install -y git cmake3
+RUN dnf install -y git cmake3 xerces-c-devel
 
 #
-RUN yum update -y && \
-    rm -rf /var/cache/yum/* && \
-    yum clean all
+RUN dnf update -y && \
+    rm -rf /var/cache/dnf/* && \
+    dnf clean all
 
 #
 WORKDIR /
