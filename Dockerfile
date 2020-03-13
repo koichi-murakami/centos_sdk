@@ -5,8 +5,9 @@ FROM centos:centos8
 LABEL maintener="Koichi Murakami <koichi.murakami@kek.jp>"
 
 #
-RUN touch /var/lib/rpm/*
+RUN dnf update -y
 
+#
 RUN dnf install -y epel-release tcsh zsh sudo make gcc-c++ \
                    boost-devel expat-devel
 
