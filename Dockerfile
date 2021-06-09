@@ -12,8 +12,7 @@ RUN yum install -y epel-release tcsh zsh sudo make gcc-c++ \
 RUN yum install -y git cmake3
 
 #
-RUN yum update -y && \
-    rm -rf /var/cache/yum/* && \
+RUN rm -rf /var/cache/yum/* && \
     yum clean all
 
 #
