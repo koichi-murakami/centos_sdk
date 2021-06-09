@@ -15,8 +15,7 @@ RUN dnf install -y epel-release tcsh zsh sudo make gcc-c++ \
 RUN dnf install -y git cmake3 xerces-c-devel
 
 #
-RUN dnf update -y && \
-    rm -rf /var/cache/dnf/* && \
+RUN rm -rf /var/cache/dnf/* && \
     dnf clean all
 
 #
