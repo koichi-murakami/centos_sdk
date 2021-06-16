@@ -1,7 +1,7 @@
 #
 # Dockerfile for CentOS 8 instance
 #
-FROM centos:latest
+FROM centos:centos8
 LABEL maintener="Koichi Murakami <koichi.murakami@kek.jp>"
 
 #
