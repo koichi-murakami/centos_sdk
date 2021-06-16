@@ -12,6 +12,7 @@ This images includes additional packages to the centos base image :
 # Supported Tags
 
 * `master` : CentOS8
+* `centos8` : CentOS8
 * `centos7` : CentOS7
 
 # License
