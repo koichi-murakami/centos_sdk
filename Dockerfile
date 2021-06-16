@@ -1,21 +1,17 @@
 #
 # Dockerfile for CentOS 8 instance
 #
-FROM centos:centos8
+FROM centos:latest
 LABEL maintener="Koichi Murakami <koichi.murakami@kek.jp>"
 
 #
-RUN dnf update -y
-
-#
 RUN dnf install -y epel-release tcsh zsh sudo make gcc-c++ \
-                   boost-devel expat-devel
+                   boost-devel expat-devel && \
+    dnf install -y git cmake xerces-c-devel
 
 #
-RUN dnf install -y git cmake3 xerces-c-devel
-
-#
-RUN rm -rf /var/cache/dnf/* && \
+RUN dnf update -y && \
+    rm -rf /var/cache/dnf/* && \
     dnf clean all
 
 #
